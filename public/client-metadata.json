@@ -1,0 +1,22 @@
+{
+    "client_id": "https://bluebird.benesty.com/client-metadata.json",
+    "client_name": "BlueBird",
+    "client_uri": "https://bluebird.benesty.com",
+    "logo_uri": "https://bluebird.benesty.com/logo.png",
+    "tos_uri": "https://bluebird.benesty.com/terms",
+    "policy_uri": "https://bluebird.benesty.com/privacy",
+    "redirect_uris": [
+        "bluebird://oauth/callback"
+    ],
+    "grant_types": [
+        "authorization_code",
+        "refresh_token"
+    ],
+    "response_types": [
+        "code"
+    ],
+    "scope": "atproto transition:generic transition:chat.bsky",
+    "token_endpoint_auth_method": "none",
+    "application_type": "native",
+    "dpop_bound_access_tokens": true
+}
