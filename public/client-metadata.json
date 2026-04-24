@@ -6,7 +6,7 @@
     "tos_uri": "https://bluebird.benesty.com/terms",
     "policy_uri": "https://bluebird.benesty.com/privacy",
     "redirect_uris": [
-        "bluebird://oauth/callback"
+        "com.benesty.bluebird://oauth/callback"
     ],
     "grant_types": [
         "authorization_code",
